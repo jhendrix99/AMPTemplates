@@ -255,17 +255,7 @@
             "True":"true"
         }
     },
-    {
-        "DisplayName":"Disable Navmesh Streaming",
-        "Category":"Server Settings",
-        "Description":"If set, the server will disable navmesh streaming on all navmesh components and load the entire navmesh into memory. This increases server performance but also increases memory consumption",
-        "Keywords":"disable,navmesh,streaming,disableNavmeshStreaming",
-        "FieldName":"disableNavmeshStreaming",
-        "InputType":"Text",
-        "ParamFieldName":"operating.disableNavmeshStreaming",
-        "DefaultValue":"false",
-        "EnumValues":{}
-    },
+
     {
         "DisplayName":"Load Mods",
         "Category":"Server Settings",
