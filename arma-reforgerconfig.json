@@ -256,6 +256,17 @@
         }
     },
     {
+        "DisplayName":"Disable Navmesh Streaming",
+        "Category":"Server Settings",
+        "Description":"If set, the server will disable navmesh streaming on all navmesh components and load the entire navmesh into memory. This increases server performance but also increases memory consumption",
+        "Keywords":"disable,navmesh,streaming,disableNavmeshStreaming",
+        "FieldName":"disableNavmeshStreaming",
+        "InputType":"Text",
+        "ParamFieldName":"operating.disableNavmeshStreaming",
+        "DefaultValue":"false",
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Load Mods",
         "Category":"Server Settings",
         "Description":"Comma-separated [list of mods](https://reforger.armaplatform.com/workshop) required by clients, which will be downloaded and activated on join. Each mod entry must be in valid JSON format. Name and version are optional. Example: {\"modId\":\"591AF5BDA9F7CE8B\",\"name\":\"Capture & Hold\",\"version\":\"1.0.3\"}",
