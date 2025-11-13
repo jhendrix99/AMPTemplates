@@ -204,6 +204,23 @@
         }
     },
     {
+        "DisplayName": "Load Last Save",
+        "Category": "Arma Reforger:stadia_controller",
+        "Subcategory": "Server:dns:1",
+        "Description": "If enabled, the server will attempt to load from the most recent save file.",
+        "Keywords": "loadsave,loadlast",
+        "FieldName": "LoadSave",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "loadSave",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "False": "false",
+            "True": "true"
+        }
+    },
+    {
         "DisplayName": "Public IP Selection Mode",
         "Category": "Arma Reforger:stadia_controller",
         "Subcategory": "Server:dns:1",
