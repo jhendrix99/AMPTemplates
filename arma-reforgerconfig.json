@@ -216,8 +216,8 @@
         "IncludeInCommandLine": false,
         "DefaultValue": "false",
         "EnumValues": {
-            "False": "false",
-            "True": "true"
+            "False": "",
+            "True": "-loadSessionSave"
         }
     },
     {
